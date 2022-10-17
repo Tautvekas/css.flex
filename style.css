@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    border: 1px solid white;
+}
+body{
+    height: 100vh;
+}
+header{
+    height: 20%;
+    background-color: aquamarine;
+}
+.container{
+    display: flex;
+    height: 80%;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.nav{
+    background-color: blue;
+    height: 50%;
+    width: 30%;
+}
+.ads{
+    background-color: blueviolet;
+    height: 50%;
+    width: 30%;
+}
+.article{
+    background-color: coral;
+    height: 80%;
+    width: 70%;
+}
+.footer{
+    background-color: crimson;
+    width: 70%;
+    height: 20%;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
